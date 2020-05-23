@@ -1,6 +1,4 @@
 CFLAGS = -Wall -Wextra -g -std=c11
 
-all: mac
-
-test: mac
-	./mac
+all: 
+	${CC} ${CFLAGS} mac.c -o mac
